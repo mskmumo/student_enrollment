@@ -74,3 +74,42 @@ Includes:
 
 ### Testing Evidence
 - Screenshots or test logs.
+
+
+
+## API Endpoints
+
+### Students
+- **GET /api/students/**: List all students.
+- **POST /api/students/**: Create a new student.
+- **GET /api/students/{id}/**: Retrieve a specific student.
+- **PUT /api/students/{id}/**: Update a specific student.
+- **DELETE /api/students/{id}/**: Delete a specific student.
+
+### Courses
+- **GET /api/courses/**: List all courses.
+- **POST /api/courses/**: Create a new course.
+- **GET /api/courses/{id}/**: Retrieve a specific course.
+- **PUT /api/courses/{id}/**: Update a specific course.
+- **DELETE /api/courses/{id}/**: Delete a specific course.
+
+### Enrollments
+- **GET /api/enrollments/**: List all enrollments.
+- **POST /api/enrollments/**: Create a new enrollment.
+- **GET /api/enrollments/{id}/**: Retrieve a specific enrollment.
+- **PUT /api/enrollments/{id}/**: Update a specific enrollment.
+- **DELETE /api/enrollments/{id}/**: Delete a specific enrollment.
+
+### Instructors
+- **GET /api/instructors/**: List all instructors.
+- **POST /api/instructors/**: Create a new instructor.
+- **GET /api/instructors/{id}/**: Retrieve a specific instructor.
+- **PUT /api/instructors/{id}/**: Update a specific instructor.
+- **DELETE /api/instructors/{id}/**: Delete a specific instructor.
+
+### Semesters
+- **GET /api/semesters/**: List all semesters.
+- **POST /api/semesters/**: Create a new semester.
+- **GET /api/semesters/{id}/**: Retrieve a specific semester.
+- **PUT /api/semesters/{id}/**: Update a specific semester.
+- **DELETE /api/semesters/{id}/**: Delete a specific semester.
